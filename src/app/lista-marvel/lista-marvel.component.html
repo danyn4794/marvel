@@ -1,0 +1,12 @@
+<table>
+    <ul>
+        <tr>
+            <td>Nombre</td>
+            <td>Imagen</td>
+        </tr>
+        <tr *ngFor="let m of nameh">
+            <td>{{m.name}}</td>
+            <img src="{{m.thumbnail.path}}.jpg">
+        </tr>
+    </ul>
+</table>
